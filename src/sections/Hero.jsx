@@ -4,15 +4,15 @@ import { Canvas } from "@react-three/fiber";
 import { useMediaQuery } from "react-responsive";
 import { PerspectiveCamera } from "@react-three/drei";
 
-import HackerRoom from "../components/HackerRoom";
-import CanvasLoader from "../components/CanvasLoader";
-import { calculateSizes } from "../constants/index.js";
-import Target from "../components/Target.jsx";
-import ReactLogo from "../components/ReactLogo.jsx";
 import Cube from "../components/Cube.jsx";
 import Rings from "../components/Rings.jsx";
-import HeroCamera from "../components/HeroCamera.jsx";
+import ReactLogo from "../components/ReactLogo.jsx";
 import Button from "../components/Button.jsx";
+import Target from "../components/Target.jsx";
+import CanvasLoader from "../components/CanvasLoader.jsx";
+import HeroCamera from "../components/HeroCamera.jsx";
+import { calculateSizes } from "../constants/index.js";
+import HackerRoom from "../components/HackerRoom.jsx";
 
 const Hero = () => {
   // Use media queries to determine screen size
@@ -23,7 +23,7 @@ const Hero = () => {
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
-      <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
+      <div className="w-full mx-auto flex flex-col sm:mt-26 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           Hi, I am Polina<span className="waving-hand">👋</span>
         </p>
@@ -59,7 +59,7 @@ const Hero = () => {
         </Canvas>
       </div>
 
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+      <div className="absolute bottom-4 left-0 right-0 w-full z-10 c-space">
         <a href="#about" className="w-fit">
           <Button
             name="Let's work together"

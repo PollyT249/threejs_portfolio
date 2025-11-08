@@ -41,7 +41,7 @@ const About = () => {
             <img
               src="/assets/grid2.png"
               alt="grid-2"
-              className="w-full sm:w-[276px] h-fit object-contain"
+              className="w-full sm:h-[276px] h-fit object-contain"
             />
 
             <div>
@@ -81,7 +81,8 @@ const About = () => {
                 I work remotely across most timezones.
               </p>
               <p className="grid-subtext">
-                I'm based in Estonia, with remote work available.
+                I'm based in Estonia. Open to internships, remote opportunities,
+                and potential relocation to join a dynamic team.
               </p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>

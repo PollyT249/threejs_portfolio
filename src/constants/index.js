@@ -58,12 +58,12 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "Vans Landing Project",
+    desc: "A visually dynamic Vans-themed landing page inspired by award-winning web design. Built with React, GSAP, and Tailwind CSS, it features smooth scroll animations, clip-path transitions, and a unique GSAP-powered pop-up under the music bar. Focused on motion design, interactivity, and responsive experience, this project transforms a tutorial foundation into a bold, custom concept.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
+      "Built as a unique Vans app with React, Tailwind CSS, GSAP, Podcastr is designed for optimal performance and scalability.",
     href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
-    texture: "/textures/project/project1.mp4",
+    texture: "/textures/project/vans-preview.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
       backgroundColor: "#2A1816",
@@ -84,8 +84,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "GSAP",
+        path: "/assets/gsap.png",
       },
       {
         id: 4,
@@ -95,12 +95,12 @@ export const myProjects = [
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "Cocktail Landing Project",
+    desc: "Developed a dynamic, scroll-powered cocktail experience crafted with React, Tailwind CSS, and GSAP. I have utilised advanced techniques such as SplitText reveals, image masking, pinned scroll sections, and scroll-synced video, all wrapped in a cohesive and fully responsive design.",
     subdesc:
       "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
     href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
+    texture: "/textures/project/mojito-preview.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#13202F",
@@ -121,8 +121,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "GSAP",
+        path: "/assets/gsap.png",
       },
       {
         id: 4,
@@ -137,7 +137,7 @@ export const myProjects = [
     subdesc:
       "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
     href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-    texture: "/textures/project/project3.mp4",
+    texture: "/textures/project/clinic-preview.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
@@ -172,11 +172,11 @@ export const myProjects = [
   },
   {
     title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    desc: "Built a sleek, fully responsive restaurant website that blends modern UI design with smooth animations and intuitive navigation. Created with React and Tailwind CSS — all wrapped in a clean, high-end aesthetic that feels both professional and inviting. It was nice working on this project.",
     subdesc:
       "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
     href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-    texture: "/textures/project/project4.mp4",
+    texture: "/textures/project/shotytam-preview.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
       backgroundColor: "#0E1F38",
@@ -249,32 +249,32 @@ export const myProjects = [
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
+    deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.2, 0],
     cubePosition: isSmall
       ? [4, -5, 0]
       : isMobile
-      ? [5, -5, 0]
+      ? [7, -5, 0]
       : isTablet
       ? [5, -5, 0]
       : [9, -5.5, 0],
     reactLogoPosition: isSmall
       ? [3, 4, 0]
       : isMobile
-      ? [5, 4, 0]
+      ? [8, 4, 0]
       : isTablet
       ? [5, 4, 0]
       : [12, 3, 0],
     ringPosition: isSmall
       ? [-5, 7, 0]
       : isMobile
-      ? [-10, 10, 0]
+      ? [-15, 10, 0]
       : isTablet
       ? [-12, 10, 0]
       : [-24, 10, 0],
     targetPosition: isSmall
       ? [-5, -10, -10]
       : isMobile
-      ? [-9, -10, -10]
+      ? [-11, -10, -18]
       : isTablet
       ? [-11, -7, -10]
       : [-13, -13, -10],
